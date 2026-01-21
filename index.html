@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone - Lucas Dev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="yt-header">
+      <div class="header-left">
+        <button class="action-btn" aria-label="Menu">
+          <img src="Imagem/menu.png" alt="Menu" class="icon-img" />
+        </button>
+        <div class="logo-wrapper">
+          <img
+            src="Imagem/logo youtube.png"
+            alt="YouTube Logo"
+            class="logo-img"
+          />
+          <span class="region-tag">BR</span>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="search-container">
+          <form class="search-box">
+            <div class="input-area">
+              <input type="text" placeholder="Curso de HTML" />
+            </div>
+            <button type="submit" class="search-button">
+              <img src="Imagem/search.png" alt="Pesquisar" class="icon-img" />
+            </button>
+          </form>
+          <button class="mic-button">
+            <img src="Imagem/mic.png" alt="Voz" class="icon-img" />
+          </button>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button class="create-pill">
+          <img src="Imagem/mais.png" alt="Criar" class="icon-img-small" />
+          <span>Criar</span>
+        </button>
+
+        <div class="notif-container">
+          <button class="action-btn">
+            <img
+              src="Imagem/notifications.png"
+              alt="Notificações"
+              class="icon-img"
+            />
+          </button>
+          <span class="notif-badge">9+</span>
+        </div>
+
+        <button class="profile-btn">
+          <img src="Imagem/foto perfil.jpg" alt="Perfil" class="user-avatar" />
+        </button>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section class="video-section">
+        <div class="video-player-placeholder">
+          <img
+            src="Imagem/video de html.png"
+            alt="Thumbnail"
+            class="main-thumb"
+          />
+        </div>
+
+        <h1 class="video-title">Aprenda HTML Iniciante ao Avançado em 2026</h1>
+
+        <div class="video-info-bar">
+          <div class="channel-data">
+            <img
+              src="Imagem/foto perfil.jpg"
+              alt="Canal"
+              class="channel-avatar"
+            />
+            <div class="channel-text">
+              <span class="channel-name">Lucas Dev</span>
+              <span class="subs-count">50 mil inscritos</span>
+            </div>
+            <button class="subscribe-btn">Inscrever-se</button>
+          </div>
+
+          <div class="video-actions">
+            <div class="like-dislike-pill">
+              <button class="action-item">
+                <img src="Imagem/like.png" alt="Like" /> 9,5 mil
+              </button>
+              <div class="separator"></div>
+              <button class="action-item">
+                <img src="Imagem/deslike.png" alt="Dislike" />
+              </button>
+            </div>
+
+            <button class="pill-btn">
+              <img src="Imagem/Share.png" alt="Partilhar" /> Partilhar
+            </button>
+
+            <button class="pill-btn">
+              <img src="Imagem/Save.png" alt="Guardar" /> Guardar
+            </button>
+
+            <button class="circle-action-btn">
+              <img
+                src="Imagem/more.png"
+                alt="Mais opções"
+                class="icon-img-small"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="video-description-container">
+          <div class="description-stats">
+            <strong>137 mil visualizações</strong>
+            <strong>há 15 dias</strong>
+            <span class="hashtags">#html #webdevelopment</span>
+          </div>
+          <div class="description-text">
+            <p>
+              Aprenda as partes mais importantes do HTML em 2026 em apenas 5
+              minutos 👨‍💻 ...mais
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="suggestions-section">
+        <div class="chips-container">
+          <span class="chip active">Todos</span>
+          <span class="chip">Do mesmo canal</span>
+          <span class="chip">Relacionados</span>
+        </div>
+
+        <div class="video-list">
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/video de css.png" alt="Miniatura" />
+              <span class="timestamp">10:00</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Aprenda CSS Iniciante ao Avançado em 2026</h3>
+              <p>Lucas Dev</p>
+              <p>50 mil visualizações • há 2 dias</p>
+            </div>
+          </div>
+
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/video de js.png" alt="Miniatura" />
+              <span class="timestamp">15:20</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Aprenda JS Iniciante ao Avançado em 2026</h3>
+              <p>Lucas Dev</p>
+              <p>102 mil visualizações • há 5 dias</p>
+            </div>
+          </div>
+
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/video de curso.png" alt="Miniatura" />
+              <span class="timestamp">08:45</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Curso de HTML e CSS do iniciante ao Pro</h3>
+              <p>Codando Juntos</p>
+              <p>1,2 mi de visualizações • há 1 ano</p>
+            </div>
+          </div>
+
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/thumb 1.png" alt="Miniatura" />
+              <span class="timestamp">12:10</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Top 10 Dicas de VS Code / Use o VS Code</h3>
+              <p>Dev Insights</p>
+              <p>45 mil visualizações • há 2 semanas</p>
+            </div>
+          </div>
+
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/thumb 2.png" alt="Miniatura" />
+              <span class="timestamp">22:05</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Criando um Portfolio com HTML e CSS</h3>
+              <p>Dev Insights</p>
+              <p>89 mil visualizações • há 3 meses</p>
+            </div>
+          </div>
+
+          <div class="suggestion-item">
+            <div class="thumb-mini">
+              <img src="Imagem/thumb 3.png" alt="Miniatura" />
+              <span class="timestamp">05:30</span>
+            </div>
+            <div class="suggestion-info">
+              <h3>Dicas de UI/UX para Programadores Front-End</h3>
+              <p>Design Lab</p>
+              <p>12 mil visualizações • há 1 semana</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
