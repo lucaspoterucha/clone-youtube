@@ -39,4 +39,4 @@ A interface segue o padrão Dark Mode do YouTube, focando nos detalhes de espaç
 
 ## 🛠️ Como visualizar o projeto
 
-**[Visualizar projeto](https://clone-youtube-topaz.vercel.app/)**
+**[Visualizar Projeto](https://clone-youtube-topaz.vercel.app/)**
